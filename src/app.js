@@ -13,6 +13,7 @@ app.use(express.json({limit : "16kb"})); // setting a middleware to allow 16kb o
 app.use(express.urlencoded({extended : true, limit : "16kb"})); // url encoded data (another form of data) 
 app.use(express.static("public")); // refernce to static folder ( may contain static html pages or images to be used in the website later on during development )
 
+// bringing in the routes 
 
 
 
